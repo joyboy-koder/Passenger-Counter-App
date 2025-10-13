@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>javascript</title> 
+</head>
+
+<body class="relative">
+    <div class="min-h-screen bg-gray-300 text-gray-700 text-center space-y-6 flex justify-center flex-col">
+      
+        <h2 class="absolute top-0 right-0 font-bold py-4 px-3 text-3xl bg-gradient-to-r from-teal-500 to-orange-700 bg-clip-text text-transparent">joko.</h2>
+        <div class="absolute w-1 top-0 right-0 h-12 bg-gray-400 transform -translate-x-22 translate-y-2"></div>
+
+    <h1 class="text-6xl font-bold">People entered: </h1>
+    <h2 id="count-el" class="text-4xl">0</h2>
+
+    <button id="increment-btn" onclick="increment()"
+        class="text-gray-200 bg-gray-700 p-3 rounded-lg shadow-lg w-1/2 container mx-auto text-center hover:bg-gray-600 hover:text-gray-200 hover:shadow-lg transition duration-500">INCREMENT</button>
+
+        <button class="p-3 bg-teal-500 w-1/4 container mx-auto rounded-lg text-teal-200 hover:bg-teal-700 font-bold transition duration-500" id="save-btn" onclick="save()">SAVE</button>
+
+
+        <p id="save-el">Previous entries: </p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
