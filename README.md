@@ -15,3 +15,6 @@ A simple web app built with **HTML**, **TailwindCSS**, and **JavaScript** that a
 - **HTML5** – Page structure  
 - **TailwindCSS** – Styling and layout  
 - **JavaScript** - Functionality
+
+ ## 🌐 Live Demo
+> https://joyboy-koder.github.io/Passenger-Counter-App/
